@@ -1,0 +1,44 @@
+body{
+    /* Solid fallback color for older browsers */
+    background-color: #41dfff;
+    /* The gradient effect */
+    background-image: linear-gradient(to right, #ff0011,#FF1993, #ce2429, #a10003, #DB2087);
+    /* Ensures the gradient covers the whole page, including any overflow */
+    background-attachment: fixed;
+    height: 100vh; /* Ensures the body fills the full height of the viewport */
+    
+    color: #00070E;
+    font-family: 'Pinyon Script', cursive;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: linear-gradient(to left, #ff0011,#FF1993, #ce2429, #a10003, #DB2087);
+    color: #EFF8FB;
+    text-align: center;
+    padding: 1.5em 0;
+}
+h1{
+    line-height: 200%;
+    margin: 0;
+}
+h2{
+    font-size: 200%;
+    color: #ff5af1;
+    text-align: center;
+}
+p{
+    font-size: 150%;
+    text-align: center;
+}
+ul{
+    font-size: 150%;
+    padding: 0;
+    text-align: center;
+}
+footer{
+    color: #EFF8FB;
+    text-align: right;
+    padding: 1em 0;
+    font-size: 100px;
+}

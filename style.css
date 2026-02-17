@@ -45,3 +45,9 @@ div{
     text-align: center;
     margin: 2em 0;
 }
+.image-container {
+  display: flex;
+  align-items: center;    /* Vertically aligns the centers of both images */
+  justify-content: center; /* Centers the whole group on the page */
+  gap: 20px;
+}

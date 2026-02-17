@@ -2,7 +2,7 @@ body{
     /* Solid fallback color for older browsers */
     background-color: #41dfff;
     /* The gradient effect */
-    background-image: linear-gradient(to right, #ff0011,#FF1993, #ce2429, #a10003, #DB2087);
+    background-image: linear-gradient(to bottom, #ff0011,#FF1993, #ce2429, #a10003, #DB2087);
     /* Ensures the gradient covers the whole page, including any overflow */
     background-attachment: fixed;
     height: 100vh; /* Ensures the body fills the full height of the viewport */
@@ -13,7 +13,7 @@ body{
     padding: 0;
 }
 header{
-    background-image: linear-gradient(to left, #ff0011,#FF1993, #ce2429, #a10003, #DB2087);
+    background-image: linear-gradient(to bottom, #ff0011,#FF1993, #ce2429, #a10003, #DB2087);
     color: #EFF8FB;
     text-align: center;
     padding: 1.5em 0;
@@ -38,7 +38,6 @@ ul{
 }
 footer{
     color: #EFF8FB;
-    text-align: right;
-    padding: 1em 0;
+    text-align: center;
     font-size: 100px;
 }
